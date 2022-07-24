@@ -16,5 +16,5 @@ int main(){
     power(x, 4, y, 2)+
     power(x, 5, y, 1)+
     power(x, 6, y, 0);
-    printf("%.4lf", F);
+    printf("%4lf", F);
 }
