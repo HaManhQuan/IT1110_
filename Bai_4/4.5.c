@@ -30,8 +30,8 @@ int main()
         }
         if (d < 0)
         {
-            printf("%f+%.2fi\n", (-b) / (2 * a), (float)sqrt(-d) / (2 * a));
-            printf("%f-%.2fi\n", (-b) / (2 * a), (float)sqrt(-d) / (2 * a));
+            printf("%f+%.6fi\n", (-b) / (2 * a), (float)sqrt(-d) / (2 * a));
+            printf("%f-%.6fi\n", (-b) / (2 * a), (float)sqrt(-d) / (2 * a));
         }
         return 0;
     }
